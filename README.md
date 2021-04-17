@@ -101,7 +101,7 @@ Let's take again the example of the log line below:
 NETWORK, Type = NetworkDelay, ClientNetworkDelays = [1,0,0,0,0,0,0,0,0,0,0,0], MeanClientNetworkDelay = 0.000000e+00
 ```
 
-The string token of value <code>NETWORK<code> is the name of a service, according to the log file format specification. Then we have a sequence of parameters, two parameters being separated by a comma token. Each parameter contains a sequence of a string token that contains the name of the parameter, an equal sign token and a value. Let's try to write this in a more formal way:
+The string token of value <code>NETWORK</code> is the name of a service, according to the log file format specification. Then we have a sequence of parameters, two parameters being separated by a comma token. Each parameter contains a sequence of a string token that contains the name of the parameter, an equal sign token and a value. Let's try to write this in a more formal way:
 
 ```
 line = service ',' parameter+
